@@ -1,14 +1,7 @@
 // dichiarazione
 
 let mioNome = prompt('quale è il tuo nome?');
-mioNome = prompt(mioNome);
-
 let mioCognome = prompt('quale è il tuo cognome?');
-mioCognome = prompt(mioCognome);
-
 let mioColore = prompt('quale è il tuo colore preferito?');
-mioColore = prompt(mioColore);
-
-
-
-const title = document.getElementById('title');
+let mioNumero = random('numero casuale');
+let title = document.getElementById('title').innerText(mioNome+mioCognome+mioColore);
